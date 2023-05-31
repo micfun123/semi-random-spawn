@@ -39,6 +39,7 @@
                         </goals>
                         <configuration>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
+                            <outputFile>C:\Users\micha\Downloads\test\plugins\semi-random-spawn.jar</outputFile>
                         </configuration>
                     </execution>
                 </executions>
