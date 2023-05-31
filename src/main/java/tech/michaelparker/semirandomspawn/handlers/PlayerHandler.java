@@ -68,6 +68,7 @@ public class PlayerHandler implements Listener {
                     // Send a welcome message with the zone information
                     player.sendMessage("Welcome to Zone: " + randomZoneKey);
                     player.sendMessage("Coordinates: X: " + randomX + ", Z: " + randomZ);
+                    //player.sendMessage("This was done using SemiRandomSpawn by Michael Parker AKA Tea Drinker Fell free to donate here https://www.buymeacoffee.com/Michaelrbparker");
                 }
             }
         }
