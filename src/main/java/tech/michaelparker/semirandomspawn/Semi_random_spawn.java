@@ -2,12 +2,14 @@ package tech.michaelparker.semirandomspawn;
 
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
+import tech.michaelparker.semirandomspawn.handlers.PlayerHandler;
 
 public final class Semi_random_spawn extends JavaPlugin {
 
     @Override
     public void onEnable() {
         // Plugin startup logic
+
         Bukkit.getLogger().info("\n" +
                 "   _____                _                                _                                                  \n" +
                 "  / ____|              (_)                              | |                                                 \n" +
@@ -19,6 +21,12 @@ public final class Semi_random_spawn extends JavaPlugin {
                 "                                                                                |_|                         \n" +
                 "\n");
         Bukkit.getLogger().info("Thank you for using the free version SemiRandomSpawn! Feel free to donate here https://www.buymeacoffee.com/Michaelrbparker");
+
+        saveDefaultConfig();
+
+        new PlayerHandler(this);
+
+
     }
 
     @Override
