@@ -30,6 +30,10 @@ public class PlayerHandler implements Listener {
         } else {
             // Get config welcome message
             FileConfiguration config = plugin.getConfig();
+            if (!config.contains("WelcomeMessage")) {
+                return;
+            }
+
             String welcomeMessage = config.getString("WelcomeMessage");
             // Send if not empty
             if (!welcomeMessage.isEmpty()) {

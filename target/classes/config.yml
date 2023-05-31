@@ -1,17 +1,12 @@
-WelcomeMessage: "Welcome %player% to the server! \nPrepare to teleport"
+WelcomeMessage: "Welcome %player% to the server! Prepare to teleport"
 Zones:
-  - Zone: one
+  "Zone One":
     x1: 100
     z1: 100
     x2: 200
     z2: 200
-  - Zone: two
+  "Zone Two":
     x1: 300
     z1: 300
     x2: 400
     z2: 400
-  - Zone: three
-    x1: 500
-    z1: 500
-    x2: 600
-    z2: 600
