@@ -6,7 +6,7 @@
 
     <groupId>tech.michaelparker</groupId>
     <artifactId>semi-random-spawn</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
 
     <name>semi-random-spawn</name>
