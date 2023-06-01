@@ -18,9 +18,11 @@ import java.util.Random;
 
 public class PlayerHandler implements Listener {
     private final Semi_random_spawn plugin;
+    private final Random random;
 
     public PlayerHandler(Semi_random_spawn plugin) {
         this.plugin = plugin;
+        this.random = new Random();
         Bukkit.getPluginManager().registerEvents(this, plugin);
     }
 
@@ -110,10 +112,8 @@ public class PlayerHandler implements Listener {
             }
         }
     }
-
-
+    
     private int getRandomCoordinate(int min, int max) {
-        Random random = new Random();
-        return random.nextInt(max - min + 1) + min;
+        return this.random.nextInt(max - min + 1) + min;
     }
 }
