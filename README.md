@@ -1,6 +1,12 @@
 # semi-random-spawn
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/Michaelrbparker)
 
+# Tested Minecraft Versions:
+
+1.19 , 1.20
+
+
+
 This is a plugin that allows users to set Zones. Each zone is a area that a player can spawn in. These zones can be set in a config file, you can have as many zones as you want. Each player will get a random spawn point in a random preset zone.
 
 Example Config
