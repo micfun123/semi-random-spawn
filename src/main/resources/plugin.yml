@@ -1,4 +1,4 @@
 name: semi-random-spawn
 version: '${project.version}'
 main: tech.michaelparker.semirandomspawn.Semi_random_spawn
-api-version: 1.19
+api-version: 1.21
