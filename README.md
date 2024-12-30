@@ -1,9 +1,11 @@
 # semi-random-spawn
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/Michaelrbparker)
 
+download = https://modrinth.com/plugin/semi-random-spawn
+
 # Tested Minecraft Versions:
 
-1.19 , 1.20
+1.19 , 1.20 , 1.21
 
 
 
